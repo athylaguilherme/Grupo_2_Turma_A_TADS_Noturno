@@ -1,5 +1,4 @@
 
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -47,12 +46,11 @@ public class Grupo_2_Turma_A_TADS_Noturno {
 
   static void inincioDificil(int b) {
     System.out.println("3");
-    String[] players = { "Alan Turing", "Ada Lovelace" };
+    String player = "Alan Turing";
 
     Scanner ler = new Scanner(System.in);
 
     int comecoInstrcoe;
-    int escolhaPlayer;
     int vidaPlayer = 3;
     int pontos; // se tiver pontos
     int vidaInimigo = 5;
@@ -64,14 +62,6 @@ public class Grupo_2_Turma_A_TADS_Noturno {
     String perguntas[] = { "Pergunta 1", "Pergunta 2", "Pergunta 3", "Pergunta 4", "Pergunta 5" };
 
     if (b == 1) {
-
-      do {
-        System.out.println("Escolha seu personagem");
-        System.out.println("1." + players[0] + " Mago da Algebra");
-        System.out.println("2." + players[1] + " a Feticeira Matematica");
-        escolhaPlayer = ler.nextInt();
-      } while (escolhaPlayer < 1 || escolhaPlayer > 2);
-      // Fim da Escolha do Personagem
 
       switch (b) {
 
@@ -95,7 +85,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -160,7 +150,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -226,7 +216,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -292,7 +282,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -357,7 +347,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -417,12 +407,11 @@ public class Grupo_2_Turma_A_TADS_Noturno {
   static void inicioMedio(int c) {
     System.out.println("2");
 
-    String[] players = { "Alan Turing", "Ada Lovelace" };
+    String player = "Alan Turing";
 
     Scanner ler = new Scanner(System.in);
 
     int comecoInstrcoe;
-    int escolhaPlayer;
     int vidaPlayer = 3;
     int pontos; // se tiver pontos
     int vidaInimigo = 5;
@@ -434,14 +423,6 @@ public class Grupo_2_Turma_A_TADS_Noturno {
     String perguntas[] = { "Pergunta 1", "Pergunta 2", "Pergunta 3", "Pergunta 4", "Pergunta 5" };
 
     if (c == 1) {
-
-      do {
-        System.out.println("Escolha seu personagem");
-        System.out.println("1." + players[0] + " Mago da Algebra");
-        System.out.println("2." + players[1] + " a Feticeira Matematica");
-        escolhaPlayer = ler.nextInt();
-      } while (escolhaPlayer < 1 || escolhaPlayer > 2);
-      // Fim da Escolha do Personagem
 
       switch (c) {
 
@@ -465,7 +446,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -530,7 +511,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -596,7 +577,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -662,7 +643,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -727,7 +708,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -786,12 +767,12 @@ public class Grupo_2_Turma_A_TADS_Noturno {
 
   static void inicioFacil(int d) {
 
-    String[] players = { "Alan Turing", "Ada Lovelace" };
+    String player = "Alan Turing";
 
     Scanner ler = new Scanner(System.in);
 
     int comecoInstrcoe;
-    int escolhaPlayer;
+
     int vidaPlayer = 3;
     int pontos; // se tiver pontos
     int vidaInimigo = 5;
@@ -799,18 +780,10 @@ public class Grupo_2_Turma_A_TADS_Noturno {
     int repitir = 0;
     int volta0 = 0;
     int recomecar = 0;
+    int indicePergunta = 0;
 
-    String perguntas[] = { "Pergunta 1", "Pergunta 2", "Pergunta 3", "Pergunta 4", "Pergunta 5" };
-
+    String perguntas[] = perguntaFacil();
     if (d == 1) {
-
-      do {
-        System.out.println("Escolha seu personagem");
-        System.out.println("1." + players[0] + " Mago da Algebra");
-        System.out.println("2." + players[1] + " a Feticeira Matematica");
-        escolhaPlayer = ler.nextInt();
-      } while (escolhaPlayer < 1 || escolhaPlayer > 2);
-      // Fim da Escolha do Personagem
 
       switch (d) {
 
@@ -823,10 +796,10 @@ public class Grupo_2_Turma_A_TADS_Noturno {
 
               ArrayList<String> alternativas = new ArrayList<String>();
               ArrayList<String> sequencia = new ArrayList<String>();
-              alternativas.add("10");
-              alternativas.add("20");
-              alternativas.add("1");
-              alternativas.add("100");
+              alternativas.add("43");
+              alternativas.add("38");// Resposta Correta
+              alternativas.add("24");
+              alternativas.add("32");
 
               sequencia.add("(A)");
               sequencia.add("(B)");
@@ -834,7 +807,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
@@ -848,14 +821,17 @@ public class Grupo_2_Turma_A_TADS_Noturno {
                 String elemento1 = (i < sequencia.size()) ? sequencia.get(i) : "";
                 String elemento2 = (i < alternativas.size()) ? alternativas.get(i) : "";
 
-                System.out.println(elemento1 + "    " + elemento2);
+                System.out.println(elemento1 + " " + elemento2);
 
+                if (elemento2.equalsIgnoreCase("38")) {
+                  indicePergunta = i;
+                }
               }
 
               String respostas = ler.next();
 
-              if (respostas.equalsIgnoreCase("C")) {
-                System.out.println("voce mataou o inimigo");
+              if (sequencia.get(indicePergunta).equalsIgnoreCase("(" + respostas + ")")) {
+                System.out.println("voce matou o inimigo");
                 vidaInimigo--;
                 repitir = 0;
                 break;
@@ -886,12 +862,12 @@ public class Grupo_2_Turma_A_TADS_Noturno {
 
             do {// do While Pergunta 2
               // Historia
-              ArrayList<String> alternativas1 = new ArrayList<String>();
+              ArrayList<String> alternativas2 = new ArrayList<String>();
               ArrayList<String> sequencia2 = new ArrayList<String>();
-              alternativas1.add("10");
-              alternativas1.add("20");
-              alternativas1.add("1");
-              alternativas1.add("150");
+              alternativas2.add("40 figurinhas");
+              alternativas2.add("44 figurinhas");// Resposta Correta
+              alternativas2.add("52 figurinhas");
+              alternativas2.add("60 figurinhas");
 
               sequencia2.add("(A)");
               sequencia2.add("(B)");
@@ -899,28 +875,31 @@ public class Grupo_2_Turma_A_TADS_Noturno {
               sequencia2.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
               System.out.println(perguntas[1]);
 
-              Collections.shuffle(alternativas1);
+              Collections.shuffle(alternativas2);
 
-              int tamanhoMaiorLista1 = Math.max(sequencia2.size(), alternativas1.size());
+              int tamanhoMaiorLista1 = Math.max(sequencia2.size(), alternativas2.size());
 
               for (int i = 0; i < tamanhoMaiorLista1; i++) {
                 String elemento1 = (i < sequencia2.size()) ? sequencia2.get(i) : "";
-                String elemento2 = (i < alternativas1.size()) ? alternativas1.get(i) : "";
+                String elemento2 = (i < alternativas2.size()) ? alternativas2.get(i) : "";
 
-                System.out.println(elemento1 + "    " + elemento2);
+                System.out.println(elemento1 + " " + elemento2);
+                if (elemento2.equalsIgnoreCase("44 figurinhas")) {
+                  indicePergunta = i;
+                }
 
               }
 
               String respostas = ler.next();
 
-              if (respostas.equalsIgnoreCase("C")) {
-                System.out.println("voce mataou o inimigo");
+              if (sequencia2.get(indicePergunta).equalsIgnoreCase("(" + respostas + ")")) {
+                System.out.println("voce matou o inimigo");
                 vidaInimigo--;
                 repitir = 0;
                 break;
@@ -952,41 +931,43 @@ public class Grupo_2_Turma_A_TADS_Noturno {
             do {// do While Pergunta 3
               // Historia
 
-              ArrayList<String> alternativas = new ArrayList<String>();
-              ArrayList<String> sequencia = new ArrayList<String>();
-              alternativas.add("10");
-              alternativas.add("20");
-              alternativas.add("1");
-              alternativas.add("100");
+              ArrayList<String> alternativas3 = new ArrayList<String>();
+              ArrayList<String> sequencia3 = new ArrayList<String>();
+              alternativas3.add("60");
+              alternativas3.add("51");// Resposta Correta
+              alternativas3.add("48");
+              alternativas3.add("42");
 
-              sequencia.add("(A)");
-              sequencia.add("(B)");
-              sequencia.add("(C)");
-              sequencia.add("(D)");
+              sequencia3.add("(A)");
+              sequencia3.add("(B)");
+              sequencia3.add("(C)");
+              sequencia3.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
               System.out.println(perguntas[2]);
 
-              Collections.shuffle(alternativas);
+              Collections.shuffle(alternativas3);
 
-              int tamanhoMaiorLista = Math.max(sequencia.size(), alternativas.size());
+              int tamanhoMaiorLista = Math.max(sequencia3.size(), alternativas3.size());
 
               for (int i = 0; i < tamanhoMaiorLista; i++) {
-                String elemento1 = (i < sequencia.size()) ? sequencia.get(i) : "";
-                String elemento2 = (i < alternativas.size()) ? alternativas.get(i) : "";
+                String elemento1 = (i < sequencia3.size()) ? sequencia3.get(i) : "";
+                String elemento2 = (i < alternativas3.size()) ? alternativas3.get(i) : "";
 
-                System.out.println(elemento1 + "    " + elemento2);
-
+                System.out.println(elemento1 + " " + elemento2);
+                if (elemento2.equalsIgnoreCase("51")) {
+                  indicePergunta = i;
+                }
               }
 
               String respostas = ler.next();
 
-              if (respostas.equalsIgnoreCase("C")) {
-                System.out.println("voce mataou o inimigo");
+              if (sequencia3.get(indicePergunta).equalsIgnoreCase("(" + respostas + ")")) {
+                System.out.println("voce matou o inimigo");
                 vidaInimigo--;
                 repitir = 0;
                 break;
@@ -1018,40 +999,43 @@ public class Grupo_2_Turma_A_TADS_Noturno {
             do {// do While Pergunta 4
               // Historia
 
-              ArrayList<String> alternativas = new ArrayList<String>();
-              ArrayList<String> sequencia = new ArrayList<String>();
-              alternativas.add("10");
-              alternativas.add("20");
-              alternativas.add("1");
-              alternativas.add("100");
+              ArrayList<String> alternativas4 = new ArrayList<String>();
+              ArrayList<String> sequencia4 = new ArrayList<String>();
+              alternativas4.add("50");
+              alternativas4.add("45");
+              alternativas4.add("40");
+              alternativas4.add("30");// Resposta Correta
 
-              sequencia.add("(A)");
-              sequencia.add("(B)");
-              sequencia.add("(C)");
-              sequencia.add("(D)");
+              sequencia4.add("(A)");
+              sequencia4.add("(B)");
+              sequencia4.add("(C)");
+              sequencia4.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
               System.out.println(perguntas[3]);
 
-              Collections.shuffle(alternativas);
+              Collections.shuffle(alternativas4);
 
-              int tamanhoMaiorLista = Math.max(sequencia.size(), alternativas.size());
+              int tamanhoMaiorLista = Math.max(sequencia4.size(), alternativas4.size());
 
               for (int i = 0; i < tamanhoMaiorLista; i++) {
-                String elemento1 = (i < sequencia.size()) ? sequencia.get(i) : "";
-                String elemento2 = (i < alternativas.size()) ? alternativas.get(i) : "";
+                String elemento1 = (i < sequencia4.size()) ? sequencia4.get(i) : "";
+                String elemento2 = (i < alternativas4.size()) ? alternativas4.get(i) : "";
 
-                System.out.println(elemento1 + "    " + elemento2);
+                System.out.println(elemento1 + " " + elemento2);
+                if (elemento2.equalsIgnoreCase("30")) {
+                  indicePergunta = i;
+                }
 
               }
               String respostas = ler.next();
 
-              if (respostas.equalsIgnoreCase("C")) {
-                System.out.println("voce mataou o inimigo");
+              if (sequencia4.get(indicePergunta).equalsIgnoreCase("(" + respostas + ")")) {
+                System.out.println("voce matou o inimigo");
                 vidaInimigo--;
                 repitir = 0;
                 break;
@@ -1083,40 +1067,43 @@ public class Grupo_2_Turma_A_TADS_Noturno {
             do {// do While Pergunta 5
               // Historia
 
-              ArrayList<String> alternativas = new ArrayList<String>();
-              ArrayList<String> sequencia = new ArrayList<String>();
-              alternativas.add("10");
-              alternativas.add("20");
-              alternativas.add("1");
-              alternativas.add("100");
+              ArrayList<String> alternativas5 = new ArrayList<String>();
+              ArrayList<String> sequencia5 = new ArrayList<String>();
+              alternativas5.add("25");
+              alternativas5.add("30");
+              alternativas5.add("35");
+              alternativas5.add("20");// Resposta Correta
 
-              sequencia.add("(A)");
-              sequencia.add("(B)");
-              sequencia.add("(C)");
-              sequencia.add("(D)");
+              sequencia5.add("(A)");
+              sequencia5.add("(B)");
+              sequencia5.add("(C)");
+              sequencia5.add("(D)");
 
               // Fim Historia
-              System.out.println(players[escolhaPlayer - 1] + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
               System.out.println(" ");
               System.out.println("Responda a seguinte pergunta:");
               System.out.println("");
               System.out.println(perguntas[4]);
 
-              Collections.shuffle(alternativas);
+              Collections.shuffle(alternativas5);
 
-              int tamanhoMaiorLista = Math.max(sequencia.size(), alternativas.size());
+              int tamanhoMaiorLista = Math.max(sequencia5.size(), alternativas5.size());
 
               for (int i = 0; i < tamanhoMaiorLista; i++) {
-                String elemento1 = (i < sequencia.size()) ? sequencia.get(i) : "";
-                String elemento2 = (i < alternativas.size()) ? alternativas.get(i) : "";
+                String elemento1 = (i < sequencia5.size()) ? sequencia5.get(i) : "";
+                String elemento2 = (i < alternativas5.size()) ? alternativas5.get(i) : "";
 
-                System.out.println(elemento1 + "    " + elemento2);
+                System.out.println(elemento1 + " " + elemento2);
+                if (elemento2.equalsIgnoreCase("20")) {
+                  indicePergunta = i;
+                }
 
               }
               String respostas = ler.next();
 
-              if (respostas.equalsIgnoreCase("C")) {
-                System.out.println("voce mataou o inimigo");
+              if (sequencia5.get(indicePergunta).equalsIgnoreCase("(" + respostas + ")")) {
+                System.out.println("voce matou o inimigo");
                 vidaInimigo--;
                 repitir = 0;
                 break;
@@ -1145,11 +1132,251 @@ public class Grupo_2_Turma_A_TADS_Noturno {
 
             } while (repitir == 1);// Fim do While pergunta 5
 
+            do {// do While Pergunta 6
+              // Historia
+
+              // Fim Historia
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(" ");
+              System.out.println("Responda a seguinte pergunta:");
+              System.out.println("");
+              System.out.println(perguntas[5]);
+
+              int respostas = ler.nextInt();
+
+              if (respostas == 2) {
+                System.out.println("voce matou o inimigo");
+                vidaInimigo--;
+                repitir = 0;
+                break;
+              }
+
+              else {
+                vidaPlayer--;
+                if (vidaPlayer == 0) {
+                  repitir = 0;
+                  System.out.println("Você morreu deseja recomeçar");
+                  System.out.println("(1) - Sim");
+                  System.out.println("(2) - Não");
+                  recomecar = ler.nextInt();
+
+                  if (recomecar == 2) {
+                    System.out.println("Até a Proxima!!");
+                    System.exit(0);
+                  }
+
+                } else {
+                  System.out.println("Você errou e tomou dano, você tem mais " + vidaPlayer + " tentativa");
+                  repitir = 1;
+                }
+
+              }
+
+            } while (repitir == 1);// Fim do While pergunta 6
+
+            do {// do While Pergunta 7
+              // Historia
+
+              // Fim Historia
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(" ");
+              System.out.println("Responda a seguinte pergunta:");
+              System.out.println("");
+              System.out.println(perguntas[6]);
+
+              int respostas = ler.nextInt();
+
+              if (respostas == 10) {
+                System.out.println("voce matou o inimigo");
+                vidaInimigo--;
+                repitir = 0;
+                break;
+              }
+
+              else {
+                vidaPlayer--;
+                if (vidaPlayer == 0) {
+                  repitir = 0;
+                  System.out.println("Você morreu deseja recomeçar");
+                  System.out.println("(1) - Sim");
+                  System.out.println("(2) - Não");
+                  recomecar = ler.nextInt();
+
+                  if (recomecar == 2) {
+                    System.out.println("Até a Proxima!!");
+                    System.exit(0);
+                  }
+
+                } else {
+                  System.out.println("Você errou e tomou dano, você tem mais " + vidaPlayer + " tentativa");
+                  repitir = 1;
+                }
+
+              }
+
+            } while (repitir == 1);// Fim do While pergunta 7
+
+            do {// do While Pergunta 8
+              // Historia
+
+              // Fim Historia
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(" ");
+              System.out.println("Responda a seguinte pergunta:");
+              System.out.println("");
+              System.out.println(perguntas[7]);
+
+              int respostas = ler.nextInt();
+
+              if (respostas == 5) {
+                System.out.println("voce matou o inimigo");
+                vidaInimigo--;
+                repitir = 0;
+                break;
+              }
+
+              else {
+                vidaPlayer--;
+                if (vidaPlayer == 0) {
+                  repitir = 0;
+                  System.out.println("Você morreu deseja recomeçar");
+                  System.out.println("(1) - Sim");
+                  System.out.println("(2) - Não");
+                  recomecar = ler.nextInt();
+
+                  if (recomecar == 2) {
+                    System.out.println("Até a Proxima!!");
+                    System.exit(0);
+                  }
+
+                } else {
+                  System.out.println("Você errou e tomou dano, você tem mais " + vidaPlayer + " tentativa");
+                  repitir = 1;
+                }
+
+              }
+
+            } while (repitir == 1);// Fim do While pergunta 8
+
+            do {// do While Pergunta 9
+              // Historia
+
+              // Fim Historia
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(" ");
+              System.out.println("Responda a seguinte pergunta:");
+              System.out.println("");
+              System.out.println(perguntas[8]);
+
+              int respostas = ler.nextInt();
+
+              if (respostas == -3) {
+                System.out.println("voce matou o inimigo");
+                vidaInimigo--;
+                repitir = 0;
+                break;
+              }
+
+              else {
+                vidaPlayer--;
+                if (vidaPlayer == 0) {
+                  repitir = 0;
+                  System.out.println("Você morreu deseja recomeçar");
+                  System.out.println("(1) - Sim");
+                  System.out.println("(2) - Não");
+                  recomecar = ler.nextInt();
+
+                  if (recomecar == 2) {
+                    System.out.println("Até a Proxima!!");
+                    System.exit(0);
+                  }
+
+                } else {
+                  System.out.println("Você errou e tomou dano, você tem mais " + vidaPlayer + " tentativa");
+                  repitir = 1;
+                }
+
+              }
+
+            } while (repitir == 1);// Fim do While pergunta 9
+
+            do {// do While Pergunta 10
+              // Historia
+
+              // Fim Historia
+              System.out.println(player + " um inimigo apareceu");// caixa de dialogo
+              System.out.println(" ");
+              System.out.println("Responda a seguinte pergunta:");
+              System.out.println("");
+              System.out.println(perguntas[9]);
+
+              int respostas = ler.nextInt();
+
+              if (respostas == 9) {
+                System.out.println("voce matou o inimigo");
+                vidaInimigo--;
+                repitir = 0;
+                break;
+              }
+
+              else {
+                vidaPlayer--;
+                if (vidaPlayer == 0) {
+                  repitir = 0;
+                  System.out.println("Você morreu deseja recomeçar");
+                  System.out.println("(1) - Sim");
+                  System.out.println("(2) - Não");
+                  recomecar = ler.nextInt();
+
+                  if (recomecar == 2) {
+                    System.out.println("Até a Proxima!!");
+                    System.exit(0);
+                  }
+
+                } else {
+                  System.out.println("Você errou e tomou dano, você tem mais " + vidaPlayer + " tentativa");
+                  repitir = 1;
+                }
+
+              }
+
+            } while (repitir == 1);// Fim do While pergunta 10
+
           } while (recomecar == 1);// Loop recomeçar
 
       }
     }
     ler.close();
+  }
+
+  static String[] perguntaFacil() {
+    String[] perguntas =
+
+        { // Perguntas de Equação 1° Grau Modelagem
+            "6 unidades somadas ao dobro de um número é igual a 82. Qual é esse número?",
+            "A quantidade de figurinhas que Renata tem mais 8 é igual ao dobro da quantidade de figurinhas que Rogério tem menos 12. Se Rogério possui 20 figurinhas, então o número de figurinhas que Renata possui é igual a:",
+            "Um número possui 14 unidades a mais que o outro. Sabendo que a soma desses números é igual a 88, então o valor do maior deles é:",
+            "Em um estacionamento há carros e motos, totalizando 120 veículos. Se o número de carros é igual ao triplo do número de motos, o total de motos nesse estacionamento é:",
+            "Um retângulo com 100 cm de perímetro apresenta a medida do lado maior com 10 cm a mais que o lado menor. Quanto mede o lado menor dessa figura geométrica?",
+            // Fim Perguntas de Equação 1° Grau modelagem
+            // Equação 2° Grau Completa
+            "Qual é a menor raiz da equação x² -7x + 10 = 0:",
+            "Qual é a maior raiz da equação x² -12x + 20 = 0:",
+            "Qual é a maior raiz da equação x² -8x + 15 = 0:",
+            // Fim Equação do 2° Grau Completa
+            // Equação do 2° Grau incompleta
+            "Qual é a menor raiz da Equação x² - 9 = 0",
+            "Qual é a maior raiz da Equação x² - 9x = 0"
+        };
+    return perguntas;
+  }
+
+  static String[] perguntaMediana() {
+    String[] perg = {
+
+    };
+
+    return perg;
   }
 
   static void creditosFinais(int c) {
