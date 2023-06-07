@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Grupo_2_Turma_A_TADS_Noturno {
 
-  static int temp_historia = 70;
+  static int temp_historia = 1;
   int inicio;
 
   int creditos;
@@ -2011,8 +2011,8 @@ public class Grupo_2_Turma_A_TADS_Noturno {
     return perg;
   }
 
-  static void creditosFinais(int c) {
-    if (c == 2) {
+  public static void creditosFinais(int c) {
+    if (c == 3) {
       System.out.println("Creditos: Eduardo Assis, Athyla Guilherme Pablo Fernabdes TURMA A ");// aquicolocamos os
                                                                                                // creditos
       System.out.println("Para recomecar o jogo aperte F5");
@@ -2022,7 +2022,7 @@ public class Grupo_2_Turma_A_TADS_Noturno {
   }
 
   static void sair(int s) {
-    if (s == 3) {
+    if (s == 4 || s == 2) {
       System.out.println("Obrigado e volte sempre!!");
       System.exit(0);
     }
@@ -2041,6 +2041,8 @@ public class Grupo_2_Turma_A_TADS_Noturno {
     Scanner ler = new Scanner(System.in);
 
     do {
+      System.out.println(
+          "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
       System.out.println(" ");
       System.out.println("***************Welcome the BitsWar**********");
       System.out.println(" ");
@@ -2048,23 +2050,39 @@ public class Grupo_2_Turma_A_TADS_Noturno {
       System.out.println(" ");
       System.out.println("****************1. Jogar*******************");
       System.out.println(" ");
-      System.out.println("****************2. Creditos****************");
+      System.out.println("****************2. Instruções****************");
       System.out.println(" ");
-      System.out.println("****************3. Sair********************");
+      System.out.println("****************3. Creditos********************");
       System.out.println(" ");
+      System.out.println("****************4. Sair********************");
+      System.out.println(" ");
+      System.out.println(
+          "///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
       inicio = ler.nextInt();
       dificuldade(inicio);
 
     } while (inicio != 1 && inicio != 2 && inicio != 3 && inicio != 4);
     if (inicio == 2) {
-      int creditosFinais = 2;
+
+      instrucoes();
+    }
+    if (inicio == 3) {
+      int creditosFinais = 3;
       creditosFinais(creditosFinais);
-    } else if (inicio == 3) {
-      int sair = 3;
+    } else if (inicio == 4) {
+      int sair = 4;
       sair(sair);
     }
 
     ler.close();
+  }
+
+  public static void instrucoes() throws InterruptedException {
+
+    System.out.println(
+        "São 3 dificuldades sendo fácil,médio e difícil, com questões separadas em alternativas e dissertativas.\n\nVocê tem 3 chances para acertar, caso perca tudo você terá que recomeçar o jogo tudo de novo.\n\nTodas as questões englobam problemas de matemática de primeiro e segundo grau, para que você possa compreender e desenvolver suas habilidades em equações.\n\nBoa sorte!!!!!!");
+    System.out.println("Aparte F5 para recomeçar");
+
   }
 
   public static void main(String[] args) throws InterruptedException {
